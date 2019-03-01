@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem Tra Nam Nhuan</title>
+</head>
+<body>
+<h3> Kiem Tra Nam Nhuan</h3>
+<script>
+    let a = prompt(' Nhap nam can kiem tra :');
+    a = Number (a);
+    if ((a%4 == 0)==( a%100!= 0))
+        alert('nam nhuan !'+a );
+    else if ((a%100 == 0 )==(a%400 == 0))
+        alert(a+ 'La nam nhuan !');
+    else alert(a+ 'Khong phai nam nhuan !');
+</script>
+</body>
+</html>
